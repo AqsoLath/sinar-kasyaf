@@ -1,0 +1,84 @@
+:root{
+	--hitam: #000000;
+	--biru: #14213d;
+	--orange: #fca311;
+	--abu: #e5e5e5;
+	--putih: #ffffff;
+
+	font-family: poppins, sans-serif;
+}
+
+.navbar{
+	background-color: var(--putih) !important;
+	border-bottom: 2px solid black;
+}
+
+nav img{
+	width: 40px;
+
+	filter: drop-shadow(1px 1px 0px #333);
+}
+
+.jumbo{
+	padding-top: 100px;
+	/*background-image: url(image/hero.jpg);*/
+	background-color: transparent !important;
+	background-size: cover;
+	background-position: center 80%;
+	margin-bottom: 100px;
+	height: 600px;
+	position: relative;
+	border-bottom: 2px solid black;
+}
+
+.blur{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	/*height: 100vh;*/
+	background-image: url(image/hero.jpg);
+	background-size: cover;
+	background-position: center 40%;
+	z-index: -1;
+	filter: blur(3px);
+	resize: none;
+}
+
+.jumbotron h1{
+	color: var(--biru);
+	text-shadow: 2px 2px 1px var(--abu);
+	margin-top: 20px;
+	font-size: 72px;
+	font-weight: 600;
+	font-family: poppins, sans-serif;
+}
+
+.jumbo img{
+	margin-top: 50px;
+	/*width: 100px;*/
+	filter: drop-shadow(2px 2px 1px #333);
+
+}
+
+.jumbotron p{
+	color:  var(--orange);
+	text-shadow: 1px 1px 1px var(--hitam);
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.jumbotron .wadah-arrow{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 200px;
+	color: #edf2f4;
+}
+
+.jumbotron .wadah-arrow h6{
+	font-size: 20px;
+}
