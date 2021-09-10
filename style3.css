@@ -152,6 +152,24 @@ nav img{
 	background-image: url(image/jasa-hero.jpg);
 }
 
+.jumbo-tentang{
+	background-image: url(image/hero-tentang2.jpg);
+	background-position: top;
+}
+
+.jumbo-galeri{
+	background-image: url(image/hero-galeri.jpg);
+}
+
+.jumbo-legalitas{
+	background-image: url(image/hero-legalitas.jpg);
+}
+
+.jumbo-kontak{
+	background-image: url(image/hero-kontak.jpg);
+	background-position: top;
+}
+
 .utama{
 	padding: 40px;
 	border-radius: 20px;
@@ -159,6 +177,8 @@ nav img{
 
 	margin-bottom: 50px;
 }
+
+
 
 .about{
 
@@ -173,7 +193,7 @@ nav img{
 	border: 1px solid #333 !important;
 }
 
-.about h2, .service h2, .baja h2, .kontak h2, .home-jasa h2{
+.about h2, .service h2, .baja h2, .kontak h2, .home-jasa h2, .kontak-maps h2{
 	font-size: 3rem;
 	color: var(--biru);
 	font-family: 'patua one', sans-serif;
@@ -234,7 +254,7 @@ nav img{
 	line-height: 16px;
 }
 
-.card .tombol{
+.card .tombol, .tentang-tombol, .kontak-tombol{
 	background-color: var(--biru);
 	color: var(--orange);
 	/*background-color: var(--biru);*/
@@ -248,6 +268,15 @@ nav img{
 
 	cursor: pointer;
 
+}
+
+.card .tombol:hover, .tentang-tombol:hover, .kontak-tombol:hover{
+	color: var(--font-white2);
+	background-color: var(--orange);
+}
+
+.kontak-tombol{
+	font-size: 24px;
 }
 
 /*.hubungi-kami{
@@ -288,10 +317,7 @@ nav img{
 	background-color: rgba(200, 200, 200, .5);
 }
 
-.card .tombol:hover{
-	color: var(--font-white2);
-	background-color: var(--orange);
-}
+
 
 
 .baja-list li{
