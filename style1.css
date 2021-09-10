@@ -19,6 +19,7 @@
 *{
 	/*border: 1px solid red;*/
 	/*font-family: 'poppins';*/
+	/*display: none;*/
 }
 
 body{
@@ -29,6 +30,35 @@ body{
 	background-color: var(--putih) !important;
 	border-bottom: 2px solid black;
 }
+
+.navbar-nav{
+	margin-left: auto;
+}
+
+.nav-link{
+	margin-right: 15px;
+	color: var(--biru) !important;
+	font-weight: 600;
+}
+
+.nav-link:hover{
+	/*text-decoration: underline;
+	text-decoration-color: var(--orange);
+	text-decoration-thickness: 2px;*/
+
+	background-color: var(--biru);
+	color: var(--orange) !important;
+	border-radius: 2px;
+
+}
+
+.nav-link.active{
+	background-color: var(--biru);
+	color: var(--orange) !important;
+	border-radius: 2px;
+
+}
+
 
 nav img{
 	width: 40px;
