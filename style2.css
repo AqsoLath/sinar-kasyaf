@@ -148,18 +148,8 @@ nav img{
 	font-family: 'montserrat alternates', sans-serif
 }
 
-.jumbotron .wadah-arrow{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-	margin-top: 200px;
-	color: #edf2f4;
-}
-
-.jumbotron .wadah-arrow h6{
-	font-size: 20px;
+.jumbo-jasa{
+	background-image: url(image/jasa-hero.jpg);
 }
 
 .utama{
@@ -183,7 +173,7 @@ nav img{
 	border: 1px solid #333 !important;
 }
 
-.about h2, .service h2, .baja h2, .kontak h2{
+.about h2, .service h2, .baja h2, .kontak h2, .home-jasa h2{
 	font-size: 3rem;
 	color: var(--biru);
 	font-family: 'patua one', sans-serif;
@@ -202,8 +192,9 @@ nav img{
 	color: var(--hitam);
 }
 
-.service{
-
+.home-jasa .card{
+	background-color: transparent;
+	color: var(--biru) !important;
 }
 
 .service p, .baja p{
@@ -212,7 +203,7 @@ nav img{
 }
 
 
-.service .card{
+.service .card, .home-jasa .card{
 	background-color: var(--biru);
 	border: 2px solid var(--orange);
 	border-radius: 15px;
