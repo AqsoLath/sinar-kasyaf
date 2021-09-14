@@ -528,8 +528,13 @@ footer hr{
 		font-size: 24px;
 	}
 
-	.about h2, .service h2, .baja h2, .kontak h2{
+	
+.about h2, .service h2, .baja h2, .kontak h2, .home-jasa h2, .kontak-maps h2, .visi-misi h2, .mengapa-kami h2, .legalitas-surat h2, .profil-lengkap h2{
 		font-size: 2.1rem;
+	}
+
+	.surat-tombol{
+		font-size: 16px;
 	}
 
 	.kontak-wa1{
